@@ -17,5 +17,6 @@ setup(name='pytalite',
       url='https://github.com/rallyhealth/pytalite/',
       install_requires=required,
       keywords='pytalite',
+      include_package_data=True,
       packages=find_packages(include=['pytalite', 'pytalite.*', 'pytalite_spark', 'pytalite_spark.*']),
       )
